@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+<div>
+    <h1>Contact Form </h1><br>
+    <p> In the form below please provide your contact details any questions you may have:</p><br>
+        <form method="POST">
+            {{ template_form.hidden_tag() }}
+            <table>
+                <tr>
+                    <td id="firstcol">{{ template_form.contact_name.label }}</td>
+                    <td id="secondcol">{{ template_form.contact_name() }}</td>
+                </tr>
+                <tr>
+                    <td id="firstcol">{{ template_form.contact_email.label }}</td>
+                    <td id="secondcol">{{ template_form.contact_email() }}</td> 
+                </tr>
+                    <td id="firstcol">{{ template_form.message_content.label }}</td>
+                    <td id="secondcol"> {{ template_form.message_content() }}</td>
+                <tr>
+                    <td colspan="2" id="submitbutton" >{{ template_form.submit() }}</td>
+                </tr>
+            </table>
+        </form>
+</div>
+{% endblock %}
+
+

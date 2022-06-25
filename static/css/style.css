@@ -1,0 +1,136 @@
+html, body {
+  margin: 0;
+}
+
+/** Nav Bar **/
+
+nav {
+  background-color: #585757;
+  border-bottom: 0.5vh solid black;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  height: 7%;
+  }
+  #navmenu {
+    margin-top: auto;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 3vh;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    padding: 2vh 2vw;
+}
+
+/** Footer **/
+div{
+  color: black;
+  top:7.5%;
+  margin: 0 auto;
+  bottom: 10%;
+  max-width: 90%;
+  padding: 5% 5%;
+  position: absolute;
+  overflow-y: scroll;
+  overflow: visible;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+/** Footer **/
+footer {
+  background-color: #585757;
+  border-top: 0.5vh solid black;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  height: 10vh;
+  bottom: 0;
+  }
+
+  #footermenu{
+    margin-top: auto;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: center;
+    display: inline-block;
+    height: 6vh;
+    max-width: 20vw;
+    padding: 2vh 2vw;
+  }
+  #linkedin{
+    width: 15vw;
+  }
+ #github{
+   height: 6vh;
+ } 
+/** AboutMe **/
+#aboutme{
+  height: 50vh;
+  padding: 5vh;
+}
+  
+
+/** "Contact Me" page **/
+
+div{
+  width: 100%;
+  text-align: center;
+}
+
+form{
+  width: 100%;
+}
+
+table{
+  margin: 0 auto;
+  text-align: left;
+}
+
+#firstcol{
+  padding: 20px;
+  width: auto;
+}
+
+#secondcol{
+  width: auto;
+  padding: 20px;
+}
+
+#submitbutton{
+  text-align: center;
+  padding: 20px;
+}
+
+textarea{
+  height: 200px;
+  width: 200px;
+}
+
+input{
+  width: 200px;
+}
+  
+
+/** 
+rgb(150, 189, 255)
+rgb(163, 197, 255)
+rgb(176, 206, 255)
+rgb(189, 214, 255)
+rgb(203, 222, 255)
+rgb(216, 230, 255)
+rgb(229, 239, 255)
+rgb(242, 247, 255)
+**/

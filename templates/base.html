@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="static/css/style.css">
+        <title>Portfolio</title>
+    </head>
+    <nav>
+        <a href="{{ url_for('index') }}"><li id="navmenu">Home</li></a>
+        <a href="{{ url_for('aboutme') }}"><li id="navmenu">About Me</li></a>
+        <a href="{{ url_for('examplework') }}"><li id="navmenu">Example Work</li></a>
+        <a href="{{ url_for('contactme') }}"><li id="navmenu">Contact Me</li></a>
+    </nav>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+    <footer>
+        <a href="https://uk.linkedin.com/in/ashley-wells-7956a8150" target="_blank"><li id="footermenu"><img src="static/images/linkedin.png" id="linkedin" ></li></a>
+        <a href="https://github.com/AJ-wells55/AJ-wells55" target="_blank"><li id="footermenu"><img src="static/images/GitHub-Mark-64px.png" id="github" ></li></a>
+    </footer>
+</html>
+
